@@ -1,4 +1,6 @@
-
+/*Escopo de processo seletivo.
+Neste desafio de projeto, a intenção era reproduzir a lógica relacionada a um processo seletivo
+Analisando candidatos, selecionando candidatos, imprimindo candidatos selecionadose realizando tentativas de contato*/
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -39,7 +41,7 @@ public class ProcessoSeletivo {
     }
 
     static void imprimirSelecionados() {
-        String[] candidatos = { "Felipe", "Marcia", "Julia", "Paulo", "Augusto" };
+        String[] candidatos = { "Enzo", "Bruna", "Guilherme", "Otávio", "Alex" };
         System.out.println("Imprimindo a lista de candidatos informando o indice do elemento");
         for (int indice = 0; indice < candidatos.length; indice++) {
             System.out.println("O candidato nº " + indice + 1 + " é o(a) " + candidatos[indice]);
@@ -47,8 +49,7 @@ public class ProcessoSeletivo {
     }
 
     static void selecaoCandidatos() {
-        String[] candidatos = { "Felipe", "Marcia", "Julia", "Paulo", "Augusto", "Monica", "Fabricio", "Mirela",
-                "Daniela" };
+        String[] candidatos = { "Enzo", "Bruna", "Guilherme", "Otávio", "Alex", "Eugênia", "Leonardo", "Pedro"};
 
         int candidatosSelecionados = 0;
         int candidatosAtual = 0;

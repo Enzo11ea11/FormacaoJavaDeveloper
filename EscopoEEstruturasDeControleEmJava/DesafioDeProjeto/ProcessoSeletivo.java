@@ -1,6 +1,6 @@
 /*Escopo de processo seletivo.
 Neste desafio de projeto, a intenção era reproduzir a lógica relacionada a um processo seletivo
-Analisando candidatos, selecionando candidatos, imprimindo candidatos selecionadose realizando tentativas de contato*/
+Analisando candidatos, selecionando candidatos, imprimindo candidatos selecionados e realizando tentativas de contato*/
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 

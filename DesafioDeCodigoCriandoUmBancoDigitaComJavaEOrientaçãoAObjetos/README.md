@@ -2,6 +2,9 @@
 
 Desafio proposto pela trilha de formação Java Developer da plataforma Digital Innovation One.
 
+Busquei simular a criação de contas, clientes, realizando transferências, depósitos, saques e registrando empréstimos.
+Tipode conta: corrente, poupança e PJ.
+
 ## Desafio:
 
 Criando um Banco Digital com Java e Orientação a Objetos
